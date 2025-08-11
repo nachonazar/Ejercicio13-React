@@ -21,7 +21,7 @@ const Formulario = ({ setUbicacion, setPais }) => {
       >
         <div className="d-flex gap-4 justify-content-center">
           <Form.Group className="mb-3" controlId="formUbicacion">
-            <Form.Label>Ubicación</Form.Label>
+            <Form.Label className="mx-2">Ubicación</Form.Label>
             <Form.Control
               type="text"
               placeholder="Ingrese una ubicación"
@@ -49,7 +49,7 @@ const Formulario = ({ setUbicacion, setPais }) => {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formPais">
-            <Form.Label>País</Form.Label>
+            <Form.Label className="mx-2">País</Form.Label>
             <Form.Control
               type="text"
               placeholder="Ingrese un país"

@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const Clima = ({ clima }) => {
   return (
-    <div>
+    <div className="mt-5 d-flex justify-content-center align-items-center">
       <Card className="text-center" style={{ width: "18rem" }}>
         <Card.Body>
           <Card.Title>
