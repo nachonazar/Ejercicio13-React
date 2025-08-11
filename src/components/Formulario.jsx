@@ -16,6 +16,7 @@ const Formulario = ({ setUbicacion, setPais }) => {
         onSubmit={handleSubmit((data) => {
           setUbicacion(data.ubicacion);
           setPais(data.pais);
+          reset();
         })}
       >
         <div className="d-flex gap-4 justify-content-center">
